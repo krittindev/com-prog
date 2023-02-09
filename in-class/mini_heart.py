@@ -10,14 +10,14 @@ def show_mini_haert(n):
     for i in range(n + 1):
         print('.' * (i) + '#' * (n - i) + '#' + '#' * (n - i) + '.' * (i))
 
-# def test():
-#     show_mini_haert(4)
-#     print()
-#     show_mini_haert(5)
-#     print()
-#     show_mini_haert(6)
-#     print()
-#     show_mini_haert(9)
+def test():
+    show_mini_haert(4)
+    print()
+    show_mini_haert(5)
+    print()
+    show_mini_haert(6)
+    print()
+    show_mini_haert(9)
 # test()
 
 n = int(input())
